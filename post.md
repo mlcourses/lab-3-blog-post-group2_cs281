@@ -17,13 +17,12 @@ This lab will help you get more familiar with mux and logic circuits. The lab wi
 - 7404 NOT gate IC
 - 7408 AND gate IC
 - 7432 OR gate IC
-- 74150 mux chip
 - Wires
 - LED
 - Arduino controller and USB cable
 
 
-# A 2 to 1 Mux
+# Building the Lab: The Voltage Divider
 ## 0 About
 
 
@@ -34,19 +33,7 @@ This lab will help you get more familiar with mux and logic circuits. The lab wi
 
 
 
-
-# A 4 to 1 Mux
-## 0 About
-
-
-
-## 1. Project Step
- 
-
-## 2. Testing
-
-
-# A 4 to 1 Mux with Arduino
+# Reading and Converting the Potentiometer Output
 ## 0 About
 
 ## 1. Project Step
@@ -54,17 +41,114 @@ This lab will help you get more familiar with mux and logic circuits. The lab wi
 ## 2. Testing
 
 
-# Adder Circuit
-## 0 About
+# Building the Combinational Logic to Display DVal
+## A LED
+### 0 About
 <br><img width="400" src="1.jpg">
 
 
  
-## 1. Project Step
+### 1. Project Step
 
 
 
-## 2. Testing
+### 2. Testing
+
+
+
+### Example tests:
+
+## B LED
+### 0 About
+<br><img width="400" src="1.jpg">
+
+
+ 
+### 1. Project Step
+
+
+
+### 2. Testing
+
+
+
+### Example tests:
+
+## C LED
+### 0 About
+<br><img width="400" src="1.jpg">
+
+
+ 
+### 1. Project Step
+
+
+
+### 2. Testing
+
+
+
+### Example tests:
+
+## D LED
+### 0 About
+<br><img width="400" src="1.jpg">
+
+
+ 
+### 1. Project Step
+
+
+
+### 2. Testing
+
+
+
+### Example tests:
+
+## E LED
+### 0 About
+<br><img width="400" src="1.jpg">
+
+
+ 
+### 1. Project Step
+
+
+
+### 2. Testing
+
+
+
+### Example tests:
+
+## F LED
+### 0 About
+<br><img width="400" src="1.jpg">
+
+
+ 
+### 1. Project Step
+
+
+
+### 2. Testing
+
+
+
+### Example tests:
+
+## G LED
+### 0 About
+<br><img width="400" src="1.jpg">
+
+
+ 
+### 1. Project Step
+
+
+
+### 2. Testing
 
 
 
