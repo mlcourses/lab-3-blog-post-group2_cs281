@@ -154,6 +154,9 @@ This lab will help you get more familiar with mux and logic circuits. The lab wi
 
 ### Example tests:
 
+# Testing Number Display
+
+
 
 # Conclusion
 
