@@ -20,6 +20,7 @@ This lab will use an analog input to display a number on a 7-segment display. A 
 - 7408 AND gate IC
 - 7432 OR gate IC
 - Resistor
+- 5161AS 7-segment
 - Wires
 - LED
 - Arduino controller and USB cable
@@ -58,6 +59,7 @@ This is how we will set up the poteniometer!
 Let's start building and testing the potentiometer! <br>
 We will generate voltage V in a range of 0 to 5 volts using the voltage divider from the potntiometer. <br>
 We will use this output signal as a input the the Aruino for "analog input" pin 0 (A0).<br>
+<br><img width="400" src="IMG_0341.JPG"><br>
 #### Note: Do not forget to GND the wire to the leftmost connection column of the potentiometer and +5V to the rightmost column.
 #### Note: Middle connections are all the same and you will wire one of these middle connections for the output of the voltage V. 
 #### Note: Make sure the input is pinned to analog input NOT digital pin 0. <br>
@@ -66,12 +68,58 @@ We will use this output signal as a input the the Aruino for "analog input" pin 
 We will use output pins 11, 12, and 13 to produce a binary signal (pin11 =B0, pin12 = B1, pin13 = B0) based on the potentiometer reading. <br>
 These signals will be input to breadboard logic so that we can express numbers in 7-segment display. 
 <br><img width="400" src="0.png"><br>
+We will try to signal the correct LEDs based on the above chart to display the correct decimal value. <br>
+<br>
+<br>
+Now we will hook up the potentiometer to the Arduino and calibrate. <br>
+1. Let's start by connecting the V output of the potentiometer to the A0 pin on the Arduino.
+<br><img width="400" src="IMG_0343.JPG"><br>
 
+#### Note: Be sure to connect Arduino to the breadboard vid GND ELSE there will be garbage reading in potentiometer.
 
+<br><img width="400" src="IMG_0347.JPG"><br>
+2. We will set up the Arduino program and compile it to write it to the board.
+#### Note you will use the bit shifting and masking to get the value that you want for B0, B1, B2
 
+3. Use below code in the Arduino program
+
+#### Note: You may want to calibrate the analog input by changing the number taht you are deviding the paramter val
+#### Note: You may use print statement to check the value and make sure pins 11-13 are pouptiing the corresponding binary value for the LEDs
+```
+const int potpin = 0;
+const int WAIT = 1000; // 1 second delay
+void setup () {
+  Serial.begin(9600);
+  pinMode(11,OUTPUT);
+  pinMode(12,OUTPUT);
+  pinMode(13,OUTPUT);
+  pinMode(potpin,INPUT);
+}
+void loop () {
+  int val;
+  int dval;
+  int bitval;
+  val = analogRead(potpin);
+  dval = val/171; // normalizing factor-->adjust this to get the range you want
+  Serial.print("From Pot: ");
+  Serial.println(val);
+  Serial.print("Decimal Value Conversion: ");
+  Serial.println(dval);
+  //use bit ops to get each bit!
+  bitval = dval & 1;
+  digitalWrite(11,bitval); // signal C
+  dval = dval >> 1;
+  bitval = dval & 1;
+  digitalWrite(12,bitval); // signal B
+  dval = dval >> 1;
+  bitval = dval & 1;
+  digitalWrite(13,bitval); // signal A
+  delay(WAIT);
+}
+```
 
 ## 2. Testing
-
+https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/1d9d0539-d0f4-45af-96cb-9cb0b0d6a2df
 
 
 # Reading and Converting the Potentiometer Output
@@ -200,7 +248,7 @@ These signals will be input to breadboard logic so that we can express numbers i
 
 
 
-https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/1d9d0539-d0f4-45af-96cb-9cb0b0d6a2df
+
 
 
 
