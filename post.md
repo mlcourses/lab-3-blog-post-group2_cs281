@@ -4,6 +4,7 @@
 Welcome to the Lab 03 of CS281: Introduction to Computer Systems! 
 This lab will use an analog input to display a number on a 7-segment display. A 7-segment display contains 7 leds that are arranged to form a number.. By the end of this lab, you'll be adept at working with essential circuit components and potentiometer.
 
+<br><img width="400" src="number.png">
 
 # Objectives of the Lab
 1. Familiarize yourself with the potentiometer and learn to control it.
@@ -18,16 +19,55 @@ This lab will use an analog input to display a number on a 7-segment display. A 
 - 7404 NOT gate IC
 - 7408 AND gate IC
 - 7432 OR gate IC
+- Resistor
 - Wires
 - LED
 - Arduino controller and USB cable
 
 
-# Building the Lab: The Voltage Divider
-## 0 About
 
+# Building the Lab: The Voltage Divider
+## 0 What do we need to know?
+First of all, we need to know about hte Voltage Divider!<br>
+Voltage divider is a arrangement of resistors configured to create a target voltage. <br>
+We will use below equation to calculate the volage current.
+<br><img width="400" src="eq1.png">
+
+We will have a constant voltage with 5 volts and the current is inversely proportional to the resistance. <br>
+Which means changing the resistance will inversly change the current that bigger the resistance, smaller the current. <br>
+<br><img width="400" src="5.png">
+<br><img width="400" src="6.png">
+
+In order to finout the voltage of the V in the above picture, we will use below equation since we know the current will be the same across the curcit.
+<br><img width="400" src="eq2.png">
+
+Since the voltage of this lab will be 5V, by changing the "R1" and "R2",  we can generate any voltage V that we want between 0 and 5 volts. <br>
+
+
+Now we need to know that is a "potentiometer". <br>
+A potentiomter is a variable resistor that allows us to fine tune our voltage divider. <br>
+This means that by using potentiometer, we can vary the value of "R1" and "R2" in a way to change the value of V like the photo below. <br>
+The value that is written in the potentiometer means that the sum of "R1" and "R2" is the number (ex 10KΩ).
+<br><img width="400" src="4.png">
+This is how we will set up the poteniometer!
 
 ## 1. Project Step
+
+<br><img width="400" src="3.png"><br>
+
+Let's start building and testing the potentiometer! <br>
+We will generate voltage V in a range of 0 to 5 volts using the voltage divider from the potntiometer. <br>
+We will use this output signal as a input the the Aruino for "analog input" pin 0 (A0).<br>
+#### Note: Do not forget to GND the wire to the leftmost connection column of the potentiometer and +5V to the rightmost column.
+#### Note: Middle connections are all the same and you will wire one of these middle connections for the output of the voltage V. 
+#### Note: Make sure the input is pinned to analog input NOT digital pin 0. <br>
+<br>
+<br><img width="400" src="2.png"> <br>
+We will use output pins 11, 12, and 13 to produce a binary signal (pin11 =B0, pin12 = B1, pin13 = B0) based on the potentiometer reading. <br>
+These signals will be input to breadboard logic so that we can express numbers in 7-segment display. 
+<br><img width="400" src="0.png"><br>
+
+
 
 
 ## 2. Testing
