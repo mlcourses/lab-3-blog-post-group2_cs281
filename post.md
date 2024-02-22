@@ -142,8 +142,7 @@ LED A is the most complicated circuit out of all the LEDs. This one involves two
 
 
 ### 2. Testing
-<img width="400" src="IMG_0347.jpg">
-
+<img width="400" src="IMG_0347.JPG">
 
 ### Example tests:
 
