@@ -134,11 +134,11 @@ https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/1d9d0
 ## A LED
 ### 0 About
 <br><img width="400" src="1.jpg">
-
+One important thing to note before we begin constructing these circuits is we have a limited number of gates, so it is important to use all the inputs in each gate before using another one.
 
  
 ### 1. Project Step
-
+LED A is the most complicated circuit out of all the LEDs. This one involves two AND gates and two OR gates, as well as two NOT gates. We can use the 7404 NOT gate, 7408 AND gate, and 7432 OR gate to construct this on the breadboard. This circuit starts by inserting B2 and B0 into the inverter and then putting each of those outputs into an input on the AND gate. For the other AND gate, this will just take input from B2 and B0 with no inversion. For this second AND gate, you will want to make the output of it one of the inputs for the OR gate. The second input for this OR gate will be B1. You will then make the output of that OR gate an input for the other OR gate. The second input for this will be the output of the first OR gate.
 
 
 ### 2. Testing
@@ -154,7 +154,7 @@ https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/1d9d0
 
  
 ### 1. Project Step
-
+The circuit for LED is very simple. This only uses one OR gate and the inputs are B0 and ∼B1.
 
 
 ### 2. Testing
@@ -170,7 +170,7 @@ https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/1d9d0
 
  
 ### 1. Project Step
-
+LED C is a little more complex than B but not quite as complicated as A. You will do the same thing you did in B, except this time you will put the input of that OR gate into the input of another OR gate and the second input is B2.
 
 
 ### 2. Testing
@@ -186,7 +186,7 @@ https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/1d9d0
 
  
 ### 1. Project Step
-
+This one is very simple. Its the same exact circuit as A, therefore you do not need to reconstruct it. You may simply make another output wire from A and connect it to the LED D pin on the 7-segment.
 
 
 ### 2. Testing
