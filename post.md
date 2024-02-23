@@ -120,6 +120,7 @@ void loop () {
 ``` 
 <br> This will give you three analog outputs B0, B1, and B2. There should also be a number 0-5 being displayed on the serial monitor that will eventually correspond to the 7-segment display.
 ## 2. Testing
+
 https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/1d9d0539-d0f4-45af-96cb-9cb0b0d6a2df
 
 
@@ -160,6 +161,7 @@ Again go through each number and check if it lights up for the correct numbers. 
 
 
 ### Example testing
+
 https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/41df861f-9340-4d9a-9abd-e5258204418c
 
 
@@ -201,7 +203,8 @@ Since LED D has the same wiring as LED D, test if they come on at the same time.
 
 
 ### Example testing
-This is the same testing as A.<br
+This is the same testing as A.
+
 https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/cf37c88d-062a-487c-b540-a757192dc038
 
 
