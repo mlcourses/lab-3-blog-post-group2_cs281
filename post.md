@@ -52,8 +52,9 @@ The value that is written in the potentiometer means that the sum of "R1" and "R
 <br><img width="400" src="4.png">
 This is how we will set up the poteniometer!
 
-## 1. Project Step
+# Reading and Converting the Potentiometer Output
 
+## 1. Project Step
 <br><img width="400" src="3.png"><br>
 
 Let's start building and testing the potentiometer! <br>
@@ -83,8 +84,8 @@ Now we will hook up the potentiometer to the Arduino and calibrate. <br>
 
 3. Use below code in the Arduino program
 
-#### Note: You may want to calibrate the analog input by changing the number taht you are deviding the paramter val
-#### Note: You may use print statement to check the value and make sure pins 11-13 are pouptiing the corresponding binary value for the LEDs
+#### Note: You may want to calibrate the analog input by changing the number taht you are dividing the paramter val. 171 may not work and might need to be adjusted.
+#### Note: You may use print statement to check the value and make sure pins 11-13 are pouptiing the corresponding binary value for the LEDs.
 ```
 const int potpin = 0;
 const int WAIT = 1000; // 1 second delay
@@ -116,18 +117,10 @@ void loop () {
   digitalWrite(13,bitval); // signal A
   delay(WAIT);
 }
-```
-
+``` 
+<br> This will give you three analog outputs B0, B1, and B2. There should also be a number 0-5 being displayed on the serial monitor that will eventually correspond to the 7-segment display.
 ## 2. Testing
-https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/1d9d0539-d0f4-45af-96cb-9cb0b0d6a2df
-
-
-# Reading and Converting the Potentiometer Output
-## 0 About
-
-## 1. Project Step
-
-## 2. Testing
+https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/1d9d0539-d0f4-45af-96cb-9cb0b0d6a2df <br>
 
 
 # Building the Combinational Logic to Display DVal
@@ -280,10 +273,4 @@ https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/2ddb0
 
 # Conclusion
 There was a lot to take away from this lab. We worked more heavily with combinational ciruits. While we worked with simple combinational circuit in the past, it's good to be getting experience with taking multiple smaller circuits and combining them effectively into a larger combinational circuits. Along with more complex circuits, we learned about and utilized voltage dividers and potentiometers. These will be very helpful if we ever need an adjustible resistance and learning about them helps us better grasp how our circuits work with different outputs and resistors.
-
-
-
-
-
-
 
