@@ -279,7 +279,7 @@ https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/2ddb0
 
 
 # Conclusion
-
+There was a lot to take away from this lab. We worked more heavily with combinational ciruits. While we worked with simple combinational circuit in the past, it's good to be getting experience with taking multiple smaller circuits and combining them effectively into a larger combinational circuits. Along with more complex circuits, we learned about and utilized voltage dividers and potentiometers. These will be very helpful if we ever need an adjustible resistance and learning about them helps us better grasp how our circuits work with different outputs and resistors.
 
 
 
