@@ -140,8 +140,9 @@ LED A is the most complicated circuit out of all the LEDs. This one involves two
 
 
 ### 2. Testing
-<br><img width="400" src="number.JPG"><br>
-<br><img width="400" src="number.JPG"><br>
+<br><img width="200" src="number.JPG"><br>
+<br><img width="200" src="0.png"><br>
+It is best to test as you go with each LED. Using the potentiometer go through each number that will be displayed and check if the correct LED lights up for the correct numbers. For LED A, it should be on for 0, 2, 3, and 5 and off for 1 and 4.
 
 
 
@@ -156,10 +157,12 @@ The circuit for LED B is very simple. This only uses one OR gate and the inputs 
 
 
 ### 2. Testing
+<br><img width="200" src="number.JPG"><br>
+<br><img width="200" src="0.png"><br>
+Again go through each number and check if it lights up for the correct numbers. For LED B, it should be on for 0, 1, 2, 3, and 4 and off for 5.
 
 
 
-### Example tests:
 
 ## C LED
 ### 0 About
@@ -172,10 +175,12 @@ The circuit for LED C is very simple. This only uses one OR gate and the inputs 
 
 
 ### 2. Testing
+<br><img width="200" src="number.JPG"><br>
+<br><img width="200" src="0.png"><br>
+LED C should be on for 0, 1, 3, 4, and 5 and off for 2.
 
 
 
-### Example tests:
 
 ## D LED
 ### 0 About
@@ -188,10 +193,13 @@ This one is very simple. Its the same exact circuit as A, therefore you do not n
 
 
 ### 2. Testing
+<br><img width="200" src="number.JPG"><br>
+<br><img width="200" src="0.png"><br>
+Since LED D has the same wiring as LED D, test if they come on at the same time. LED D should be on for 0, 2, 3, and 5 and off for 1 and 4.
 
 
 
-### Example tests:
+
 
 ## E LED
 ### 0 About
@@ -204,26 +212,29 @@ This one is slightly different but not hard. The wireing of the LED E pin is the
 
 
 ### 2. Testing
+<br><img width="200" src="number.JPG"><br>
+<br><img width="200" src="0.png"><br>
+LED E should be on for 0 and 2 and off for 1, 3, 4, and 5.
 
 
-
-### Example tests:
 
 ## F LED
 ### 0 About
 <br><img width="400" src="WireF.jpeg">
-The wiring of LED F is just slightly more complicated. This will use our third AND gate with the inputs of ~B0 and ~B1. Then take the output of the AND gate and B2 as inputs of an OR gate. Then wire with a resistor to the LED F pin.
+
 
  
 ### 1. Project Step
+The wiring of LED F is just slightly more complicated. This will use our third AND gate with the inputs of ~B0 and ~B1. Then take the output of the AND gate and B2 as inputs of an OR gate. Then wire with a resistor to the LED F pin.
 
 
 
 ### 2. Testing
+<br><img width="200" src="number.JPG"><br>
+<br><img width="200" src="0.png"><br>
+LED F should be on for 0, 4 and 5 and off for 1, 2, and 3.
 
 
-
-### Example tests:
 
 ## G LED
 ### 0 About
@@ -236,10 +247,11 @@ The circuit for LED G is very simple. This only uses one OR gate and the inputs 
 
 
 ### 2. Testing
+<br><img width="200" src="number.JPG"><br>
+<br><img width="200" src="0.png"><br>
+LED G should be on for 2, 3, 4, and 5 and off for 0 and 1.
 
 
-
-### Example tests:
 
 # Testing Number Display
 
