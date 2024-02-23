@@ -133,12 +133,10 @@ https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/1d9d0
 # Building the Combinational Logic to Display DVal
 ## A LED
 ### 0 About
-<br><img width="400" src="WireAD.jpeg">
-One important thing to note before we begin constructing these circuits is we have a limited number of gates, so it is important to use all the inputs in each gate before using another one.
-
- 
+One important thing to note before we begin constructing these circuits is we have a limited number of gates, so it is important to use all the inputs in each gate before using another one. For this, have just one inversion using NOT gates for B0, B1, and B2. These will be denoted with ~B0, ~B1, and ~B2 and will be reused multiple times by attaching another wireing to the respective NOT gate outputs.
+<br><img width="400" src="WireAD.jpeg"><br>
 ### 1. Project Step
-LED A is the most complicated circuit out of all the LEDs. This one involves two AND gates and two OR gates, as well as two NOT gates. We can use the 7404 NOT gate, 7408 AND gate, and 7432 OR gate to construct this on the breadboard. This circuit starts by inserting B2 and B0 into the inverter and then putting each of those outputs into an input on the AND gate. For the other AND gate, this will just take input from B2 and B0 with no inversion. For this second AND gate, you will want to make the output of it one of the inputs for the OR gate. The second input for this OR gate will be B1. You will then make the output of that OR gate an input for the other OR gate. The second input for this will be the output of the first OR gate.
+LED A is the most complicated circuit out of all the LEDs. This one involves two AND gates and two OR gates, as well as two NOT gates. We can use the 7404 NOT gate, 7408 AND gate, and 7432 OR gate to construct this on the breadboard. This circuit starts by inserting ~B2 and ~B0 as the inputs into the first AND gate. For the second AND gate, this will just take input from B2 and B0 with no inversion. The first OR gate will have its inputs be the outputs of the two AND gates. Then the second OR gate will take in the output of the first OR gate and B1 as inputs. Then wire the second OR gate's output with a resistor into the pin for LED A.
 
 
 ### 2. Testing
@@ -153,7 +151,7 @@ LED A is the most complicated circuit out of all the LEDs. This one involves two
 
  
 ### 1. Project Step
-The circuit for LED is very simple. This only uses one OR gate and the inputs are B0 and ∼B1.
+The circuit for LED B is very simple. This only uses one OR gate and the inputs are ~B0 and ∼B2. Then the wired to the pin of LED B with a resistor.
 
 
 ### 2. Testing
@@ -169,7 +167,7 @@ The circuit for LED is very simple. This only uses one OR gate and the inputs ar
 
  
 ### 1. Project Step
-LED C is a little more complex than B but not quite as complicated as A. You will do the same thing you did in B, except this time you will put the input of that OR gate into the input of another OR gate and the second input is B2.
+The circuit for LED C is very simple. This only uses one OR gate and the inputs are B0 and ∼B1. And again wired with a resistor to the LED C pin.
 
 
 ### 2. Testing
@@ -185,7 +183,7 @@ LED C is a little more complex than B but not quite as complicated as A. You wil
 
  
 ### 1. Project Step
-This one is very simple. Its the same exact circuit as A, therefore you do not need to reconstruct it. You may simply make another output wire from A and connect it to the LED D pin on the 7-segment.
+This one is very simple. Its the same exact circuit as A, therefore you do not need to reconstruct it. You may simply make another output wire from A and connect it to the LED D pin on the 7-segment. Make sure there is at least one resistor before the LED D pin.
 
 
 ### 2. Testing
@@ -198,9 +196,9 @@ This one is very simple. Its the same exact circuit as A, therefore you do not n
 ### 0 About
 <br><img width="400" src="WireE.jpeg">
 
-
  
 ### 1. Project Step
+This one is slightly different but not hard. The wireing of the LED E pin is the AND of ~B0 and ~B2. This already appears in the wiring of LED A and D. Take attach another wiring to the output of the first AND gate in the LED A and D wiring and wire it with a resistor to the LED E pin.
 
 
 
@@ -213,7 +211,7 @@ This one is very simple. Its the same exact circuit as A, therefore you do not n
 ## F LED
 ### 0 About
 <br><img width="400" src="WireF.jpeg">
-
+The wiring of LED F is just slightly more complicated. This will use our third AND gate with the inputs of ~B0 and ~B1. Then take the output of the AND gate and B2 as inputs of an OR gate. Then wire with a resistor to the LED F pin.
 
  
 ### 1. Project Step
@@ -233,7 +231,7 @@ This one is very simple. Its the same exact circuit as A, therefore you do not n
 
  
 ### 1. Project Step
-
+The circuit for LED G is very simple. This only uses one OR gate and the inputs are B1 and B2. Then the wired to the pin of LED G with a resistor.
 
 
 ### 2. Testing
