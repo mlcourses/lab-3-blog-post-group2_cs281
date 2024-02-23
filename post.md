@@ -120,7 +120,7 @@ void loop () {
 ``` 
 <br> This will give you three analog outputs B0, B1, and B2. There should also be a number 0-5 being displayed on the serial monitor that will eventually correspond to the 7-segment display.
 ## 2. Testing
-https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/1d9d0539-d0f4-45af-96cb-9cb0b0d6a2df <br>
+https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/1d9d0539-d0f4-45af-96cb-9cb0b0d6a2df
 
 
 # Building the Combinational Logic to Display DVal
@@ -138,7 +138,8 @@ LED A is the most complicated circuit out of all the LEDs. This one involves two
 It is best to test as you go with each LED. Using the potentiometer go through each number that will be displayed and check if the correct LED lights up for the correct numbers. For LED A, it should be on for 0, 2, 3, and 5 and off for 1 and 4.
 
 ### Example testing
-This is the same testing as D.<br
+This is the same testing as D.
+
 https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/cf37c88d-062a-487c-b540-a757192dc038
 
 
