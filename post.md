@@ -133,7 +133,7 @@ https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/1d9d0
 # Building the Combinational Logic to Display DVal
 ## A LED
 ### 0 About
-<br><img width="400" src="1.jpg">
+<br><img width="400" src="WireAD.jpeg">
 One important thing to note before we begin constructing these circuits is we have a limited number of gates, so it is important to use all the inputs in each gate before using another one.
 
  
@@ -148,7 +148,7 @@ LED A is the most complicated circuit out of all the LEDs. This one involves two
 
 ## B LED
 ### 0 About
-<br><img width="400" src="1.jpg">
+<br><img width="400" src="WireB.jpeg">
 
 
  
@@ -164,7 +164,7 @@ The circuit for LED is very simple. This only uses one OR gate and the inputs ar
 
 ## C LED
 ### 0 About
-<br><img width="400" src="1.jpg">
+<br><img width="400" src="WireC.jpeg">
 
 
  
@@ -180,7 +180,7 @@ LED C is a little more complex than B but not quite as complicated as A. You wil
 
 ## D LED
 ### 0 About
-<br><img width="400" src="1.jpg">
+<br><img width="400" src="WireAD.jpeg">
 
 
  
@@ -196,7 +196,7 @@ This one is very simple. Its the same exact circuit as A, therefore you do not n
 
 ## E LED
 ### 0 About
-<br><img width="400" src="1.jpg">
+<br><img width="400" src="WireE.jpeg">
 
 
  
@@ -212,7 +212,7 @@ This one is very simple. Its the same exact circuit as A, therefore you do not n
 
 ## F LED
 ### 0 About
-<br><img width="400" src="1.jpg">
+<br><img width="400" src="WireF.jpeg">
 
 
  
@@ -228,7 +228,7 @@ This one is very simple. Its the same exact circuit as A, therefore you do not n
 
 ## G LED
 ### 0 About
-<br><img width="400" src="1.jpg">
+<br><img width="400" src="WireG.jpeg">
 
 
  
