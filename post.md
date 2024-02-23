@@ -140,7 +140,7 @@ LED A is the most complicated circuit out of all the LEDs. This one involves two
 
 
 ### 2. Testing
-<br><img width="200" src="number.JPG"><br>
+<br><img width="200" src="number.png"><br>
 <br><img width="200" src="0.png"><br>
 It is best to test as you go with each LED. Using the potentiometer go through each number that will be displayed and check if the correct LED lights up for the correct numbers. For LED A, it should be on for 0, 2, 3, and 5 and off for 1 and 4.
 
@@ -157,7 +157,7 @@ The circuit for LED B is very simple. This only uses one OR gate and the inputs 
 
 
 ### 2. Testing
-<br><img width="200" src="number.JPG"><br>
+<br><img width="200" src="number.png"><br>
 <br><img width="200" src="0.png"><br>
 Again go through each number and check if it lights up for the correct numbers. For LED B, it should be on for 0, 1, 2, 3, and 4 and off for 5.
 
@@ -175,7 +175,7 @@ The circuit for LED C is very simple. This only uses one OR gate and the inputs 
 
 
 ### 2. Testing
-<br><img width="200" src="number.JPG"><br>
+<br><img width="200" src="number.png"><br>
 <br><img width="200" src="0.png"><br>
 LED C should be on for 0, 1, 3, 4, and 5 and off for 2.
 
@@ -193,7 +193,7 @@ This one is very simple. Its the same exact circuit as A, therefore you do not n
 
 
 ### 2. Testing
-<br><img width="200" src="number.JPG"><br>
+<br><img width="200" src="number.png"><br>
 <br><img width="200" src="0.png"><br>
 Since LED D has the same wiring as LED D, test if they come on at the same time. LED D should be on for 0, 2, 3, and 5 and off for 1 and 4.
 
@@ -212,7 +212,7 @@ This one is slightly different but not hard. The wireing of the LED E pin is the
 
 
 ### 2. Testing
-<br><img width="200" src="number.JPG"><br>
+<br><img width="200" src="number.png"><br>
 <br><img width="200" src="0.png"><br>
 LED E should be on for 0 and 2 and off for 1, 3, 4, and 5.
 
@@ -230,7 +230,7 @@ The wiring of LED F is just slightly more complicated. This will use our third A
 
 
 ### 2. Testing
-<br><img width="200" src="number.JPG"><br>
+<br><img width="200" src="number.png"><br>
 <br><img width="200" src="0.png"><br>
 LED F should be on for 0, 4 and 5 and off for 1, 2, and 3.
 
@@ -247,7 +247,7 @@ The circuit for LED G is very simple. This only uses one OR gate and the inputs 
 
 
 ### 2. Testing
-<br><img width="200" src="number.JPG"><br>
+<br><img width="200" src="number.png"><br>
 <br><img width="200" src="0.png"><br>
 LED G should be on for 2, 3, 4, and 5 and off for 0 and 1.
 
