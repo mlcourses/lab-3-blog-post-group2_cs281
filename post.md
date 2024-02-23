@@ -144,6 +144,9 @@ LED A is the most complicated circuit out of all the LEDs. This one involves two
 <br><img width="200" src="0.png"><br>
 It is best to test as you go with each LED. Using the potentiometer go through each number that will be displayed and check if the correct LED lights up for the correct numbers. For LED A, it should be on for 0, 2, 3, and 5 and off for 1 and 4.
 
+### Example testing
+This is the same testing as D.<br
+https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/cf37c88d-062a-487c-b540-a757192dc038
 
 
 ## B LED
@@ -162,6 +165,8 @@ The circuit for LED B is very simple. This only uses one OR gate and the inputs 
 Again go through each number and check if it lights up for the correct numbers. For LED B, it should be on for 0, 1, 2, 3, and 4 and off for 5.
 
 
+### Example testing
+https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/41df861f-9340-4d9a-9abd-e5258204418c
 
 
 ## C LED
@@ -180,6 +185,8 @@ The circuit for LED C is very simple. This only uses one OR gate and the inputs 
 LED C should be on for 0, 1, 3, 4, and 5 and off for 2.
 
 
+### Example testing
+https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/7650fa52-f56d-4643-9e5a-d761c9901726
 
 
 ## D LED
@@ -198,6 +205,10 @@ This one is very simple. Its the same exact circuit as A, therefore you do not n
 Since LED D has the same wiring as LED D, test if they come on at the same time. LED D should be on for 0, 2, 3, and 5 and off for 1 and 4.
 
 
+
+### Example testing
+This is the same testing as A.<br
+https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/cf37c88d-062a-487c-b540-a757192dc038
 
 
 
@@ -218,6 +229,10 @@ LED E should be on for 0 and 2 and off for 1, 3, 4, and 5.
 
 
 
+### Example testing
+https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/9afb9545-eb94-414a-a182-eecffeac7204
+
+
 ## F LED
 ### 0 About
 <br><img width="400" src="WireF.jpeg">
@@ -236,6 +251,10 @@ LED F should be on for 0, 4 and 5 and off for 1, 2, and 3.
 
 
 
+### Example testing
+https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/6972c874-b9ce-4fbc-a84e-421ad199cb0e
+
+
 ## G LED
 ### 0 About
 <br><img width="400" src="WireG.jpeg">
@@ -252,39 +271,10 @@ The circuit for LED G is very simple. This only uses one OR gate and the inputs 
 LED G should be on for 2, 3, 4, and 5 and off for 0 and 1.
 
 
-
 # Testing Number Display
 
 
-
-
-
-
-
-
-https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/cf37c88d-062a-487c-b540-a757192dc038
-
-
-
-https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/41df861f-9340-4d9a-9abd-e5258204418c
-
-
-
-https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/7650fa52-f56d-4643-9e5a-d761c9901726
-
-
-
-https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/9afb9545-eb94-414a-a182-eecffeac7204
-
-
-
-https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/6972c874-b9ce-4fbc-a84e-421ad199cb0e
-
-
-
 https://github.com/mlcourses/lab-3-blog-post-group2_cs281/assets/108073642/2ddb0cf6-cff4-4903-a388-4d77e15e3163
-
-
 
 
 
