@@ -28,7 +28,7 @@ This lab will use an analog input to display a number on a 7-segment display. A 
 
 
 # Building the Lab: The Voltage Divider
-## 0 What do we need to know?
+##  What do we need to know?
 First of all, we need to know about hte Voltage Divider!<br>
 Voltage divider is a arrangement of resistors configured to create a target voltage. <br>
 We will use below equation to calculate the volage current.
@@ -140,9 +140,10 @@ LED A is the most complicated circuit out of all the LEDs. This one involves two
 
 
 ### 2. Testing
-<img width="400" src="IMG_0347.JPG">
+<br><img width="400" src="number.JPG"><br>
+<br><img width="400" src="number.JPG"><br>
 
-### Example tests:
+
 
 ## B LED
 ### 0 About
